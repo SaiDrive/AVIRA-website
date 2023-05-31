@@ -5,264 +5,93 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+  <link rel="stylesheet" href="style.css">
   <title>AVIRA</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,700&display=swap" rel="stylesheet">
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background-color: rgba(0, 0, 0, 0.966);
-      color: whitesmoke;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    nav {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      height: 100px;
-      background-color: darkgray;
-      position: sticky;
-    }
-
-    nav ul {
-      display: flex;
-      justify-content: center;
-    }
-
-    nav ul li {
-      list-style: none;
-      margin: 0 23px;
-    }
-
-    nav ul li a {
-      text-decoration: none;
-      color: aliceblue;
-    }
-
-    nav ul li a:hover {
-      color: black;
-      font-size: 1.04rem;
-    }
-
-    .left {
-      font-size: 2rem;
-    }
-
-    .firstSection {
-      display: flex;
-      justify-content: space-around;
-      margin: 80px 0;
-    }
-
-    .firstSection>div {
-      width: 30%;
-    }
-
-    .leftSection {
-
-      font-size: 2.5rem;
-      margin: 30px 0;
-    }
-
-    .rightSection img {
-      width: 80%;
-
-    }
-
-    .purple {
-      color: goldenrod;
-    }
-
-    #element {
-      color: rgb(91, 89, 89);
-    }
-
-    .secondSection {
-      max-width: 80vw;
-      margin: auto;
-      height: 80vh;
-    }
-
-    .secondSection h1 {
-      font-size: 2.5rem;
-    }
-
-    .aboutimage img {
-      width: 600px;
-      height: 350px;
-      margin-top: 0px;
-      border-radius: 15px;
-      box-shadow: 4px 4px 8px 4px rgba(116, 115, 115, 0.2);
-    }
-
-    footer {
-      margin-top: 23px;
-      margin-bottom: 0px;
-      margin-left: 0px;
-      margin-right: 0px;
-      background-color: rgb(64, 64, 64);
-      height: 250px;
-    }
-
-
-
-    .footer {
-      display: flex;
-      padding: 23px 77px;
-      justify-content: space-evenly;
-
-    }
-
-    .footer ul {
-      list-style: none;
-    }
-
-    .footer>div {
-      width: 123px;
-    }
-
-    footer .footer-right {
-      text-align: center;
-      color: black;
-      padding: 12px;
-    }
-
-    footer .footer-right .btn {
-      padding: 12px;
-      background-color: black;
-      color: azure;
-      font-size: medium;
-      border-radius: 7px;
-      cursor: pointer;
-
-    }
-    .left-aos-init h1{
-      margin-left: 900px;
-     
-    }
-    .left-aos-init p{
-      margin-left: 900px;
-     
-    }
-    
-  </style>
 </head>
 
 <body>
   <header>
-    <nav>
-      <div class="left">AVIRA</div>
-      <div class="right">
-        <ul>
-          <li><a href="/"> HOME</a> </li>
-          <li><a href="/"> VISION AND MISSION</a> </li>
-          <li><a href="/"> TEAM</a> </li>
-          <li><a href="/"> EVENTS</a> </li>
-          <li><a href="/"> SOCIALS</a> </li>
-        </ul>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/avira.png.jpeg" alt="Avira">
       </div>
-
+      <ul>
+        <li class="nav-item"><a class="nav-link" href="#"> HOME</a> </li>
+        <li class="nav-item"><a class="nav-link" href="#"> VISION AND MISSION</a> </li>
+        <li class="nav-item"><a class="nav-link" href="#"> TEAM</a> </li>
+        <li class="nav-item"><a class="nav-link" href="#"> EVENTS</a> </li>
+        <li class="nav-item"><a class="nav-link" href="#"> SOCIALS</a> </li>
+      </ul>
+      <div class="toggle-button">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </nav>
   </header>
+
   <main>
-    <section class="firstSection">
-      <div class="leftSection">
-        <span class="purple">AVIRA</span>
-        <div> The Martial Arts and Parkour Society of IGDTUW</div>
-        <span id="element"></span>
-      </div>
-      <div class="rightSection">
-        <img src="avira.png.jpeg">
+    <section class="main-section">
+      <div class="head">
+        <h2>
+          <span>AVIRA</span>
+        </h2>
+        <p>
+          Martial Arts and Parkour Society of IGDTUW
+        </p>
       </div>
     </section>
 
-    <section class="secondSection">
-      <div class=" right--section">
-      <h1 class="abouthead">About Us</h1>
-      <div class="about">
-        <div class="left-aos-init" data-aos=" fade-left">
-          <h1> **QUOTE**</h1>
-          <p> about ka content</p>
+    <section class="vision">
+      <div class="vision-main">
+        <h1>VISION & MISSION</h1>
+        <div class="vision-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, quidem neque. Ut beatae veniam non?
+          Asperiores, vero saepe eaque ipsum animi quod ut adipisci quae sunt atque nemo commodi impedit!
         </div>
+      </div>
+    </section>
+
+    <div class="about">
+      <h1>ABOUT</h1>
+      <div class="about-section">
+        <div class="about-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit sunt odio nemo recusandae veniam natus nam
+          iure, cumque iste. Repudiandae, fugiat facilis dolore quo enim maiores ipsam odio voluptatum illum. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Consequuntur numquam dolores itaque. Iste sequi suscipit
+          quis dolorem laboriosam quasi veritatis consequuntur et dicta debitis saepe, eius quaerat doloremque eaque
+          magni officiis, aut sint! lorem32
         </div>
-      
-
-
-
-      <div class="aboutimage">
-        <img src="TEAMPHOTO-test.jpeg">
-
+        <div class="about-image">
+          <img src="images/TEAMPHOTO-test.jpeg" alt="">
+        </div>
       </div>
     </div>
-
-    </section>
-
-
-
   </main>
 
-  <footer>
-    <div class="footer">
-      <div class="footer-first">
-        <h4> something </h4>
-
-
+  <footer id="footer" class="footer-section">
+    <div class="footer-content">
+      <img src="images/avira.png.jpeg" alt="">
+      <h1>AVIRA</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, placeat consectetur? Quas quo possimus
+        eius.</p>
+      <div class="socials">
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-github"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
       </div>
-      <div class="footer-second"></div>
-
-      <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Team</li>
-        <li>Events</li>
-        <li>Socials</li>
-      </ul>
-
-      <div class="footer-third"></div>
-      <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Team</li>
-        <li>Events</li>
-        <li>Socials</li>
-      </ul>
-
-
-      <div class="footer-fourth"></div>
-      <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Team</li>
-        <li>Events</li>
-        <li>Socials</li>
-      </ul>
-
-    </div>
-
-    <div class="footer-right">
-      <a href="https://instagram.com/avira.igdtuw?igshid=MzRIODBiNWFIZA==">
-        <button class="btn">Instagram</button>
-      </a>
     </div>
   </footer>
-
-
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-  <script>
+  <!-- <script>
 
     var typed = new Typed('#element', {
       strings: [' (example)North Indias first all-women martial arts society !'],
       typeSpeed: 50,
     });
-  </script>
+  </script> -->
 
 </body>
 
