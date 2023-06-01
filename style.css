@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(136, 135, 135, 0.966);
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* navbar start */
+
+.navbar {
+  position: fixed;
+  display: flex;
+  top: 0;
+  opacity: 0.75;
+  box-shadow: 2px 5px 30px #3d3f3f;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  z-index: 10;
+}
+
+.navbar .nav-link {
+  display: flex;
+  gap: 2 rem;
+}
+
+.logo {
+  margin: 10px;
+  border-radius: 50px;
+  justify-content: left;
+}
+
+.logo img {
+  width: 50px;
+  border-radius: 50px;
+  border: 4px solid rgb(243, 237, 237);
+}
+
+.nav-item {
+  color: white;
+}
+
+.navbar .toggle-button {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 25px;
+  display: none;
+}
+
+/* responsive */
+@media(max-width: 900px) {
+  .navbar .nav-link {
+    display: none;
+  }
+
+  .navbar .toggle-button {
+    display: block;
+    padding: 25px;
+  }
+}
+
+nav ul li {
+  justify-content: right;
+  display: inline-block;
+  margin: 4.5% 0%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin: 0px 7px;
+  padding: 8px 10px;
+  border-radius: 18px;
+  color: rgb(224, 226, 227);
+}
+
+nav ul li a:hover {
+  color: black;
+  background-color: #cfcfcf;
+  padding: 8px 10px;
+  border-radius: 18px;
+  transition: 0.5s;
+}
+
+/* navbar end */
+
+
+/* main-section starts */
+.main-section{
+  background-image: url("TEAMPHOTO-test.jpeg");
+  image-resolution: 0.25;
+  background-size: contain;
+  width: 100%;
+  margin: 15em 0em;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40vh;
+}
+  /* heading avira start */
+  .head h2 {
+    font-size: 150px;
+    color: rgb(184, 184, 184);
+    letter-spacing: 5px;
+    cursor: pointer;
+  }
+
+  .head h2 span {
+    transition: 0.5s;
+  }
+
+  .head h2:hover span {
+    color: #ffffff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 40px #fff;
+  }
+
+  .head p{
+    margin-top: 5%;
+    font-size: 2em;
+  }
+
+  /* vision and mission */
+  .vision{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0em 15em;
+  }
+
+  .vision h1{
+    font-size: 3em;
+  }
+
+  /* about-section */
+  .about{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .about h1{
+    font-size: 3em;
+    padding: 5%;
+  }
+
+  .about-section{
+    display: flex;
+    gap: 5%;
+  }
+
+  .about-section .about-image img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+
+/* main-section ends */
+
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+  padding: 50px;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+}
+
+.footer-content{
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer-content h1{
+  font-size: 1rem;
+  margin-top: -1em;
+  margin-bottom: 1.5em;
+}
+
+.footer-content img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.footer-content p{
+  padding: 0% 15%;
+  color: #ffffff;
+}
+
+.socials a{
+  width: 50px;
+  height: 40px;
+  color: #e7f2f4;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 12px;
+  font-size: 20px;
+}
