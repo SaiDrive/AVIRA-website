@@ -1,10 +1,10 @@
 * {
-  margin: 0;
+  margin : 0;
   padding: 0;
 }
 
 body {
-  background-color: rgba(75, 74, 74, 0.966);
+  background-color: rgba(136, 135, 135, 0.966);
   color: whitesmoke;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -81,10 +81,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: black;
-  background-color: #cfcfcf;
+  color: white;
+ 
+  font-size: 1.4rem ;
   padding: 8px 10px;
-  border-radius: 18px;
+ 
   transition: 0.5s;
 }
 
@@ -140,6 +141,58 @@ nav ul li a:hover {
   .vision h1{
     font-size: 3em;
   }
+
+  /* core */
+  .core{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+   
+    
+  }
+
+  .core h1{
+    font-size: 4em ;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .pandvp{
+    display: flex;
+  }
+  
+  .pandvp p-left{
+    margin: 0 65px;
+    padding-right: 50%;
+  }
+  .p-left img {
+    margin: 0 65px;
+    padding-right: 2%;
+}
+.pandvp vp-right{
+  margin: 0;
+    padding-left: 50%;
+}
+  .vp-right img {
+    margin: 0;
+    padding-left: 2%;
+}
+
+  /* EVENTS*/
+  .events{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+   
+    
+  }
+
+  .events h1{
+    font-size: 4em ;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
 
   /* about-section */
   .about{
