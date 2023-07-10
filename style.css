@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgba(136, 135, 135, 0.966);
+  background-color: rgba(0, 0, 0, 0.966);
   color: whitesmoke;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -82,11 +82,8 @@ nav ul li a {
 
 nav ul li a:hover {
   color: white;
- 
-  font-size: 1.4rem ;
+  transform: scale(1.1);
   padding: 8px 10px;
- 
-  transition: 0.5s;
 }
 
 /* navbar end */
@@ -94,8 +91,8 @@ nav ul li a:hover {
 
 /* main-section starts */
 .main-section{
-  box-shadow: inset 0 0 15em 12em #000; 
-  background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url("images/TEAMPHOTO-test.jpeg");
+  box-shadow: inset 0 0 10em 10em #000; 
+  background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.60)), url("images/TEAMPHOTO-test.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   image-resolution: 0.25;
@@ -112,7 +109,7 @@ nav ul li a:hover {
     width: 80%;
   }
   .head h2 {
-    font-size:8em;
+    font-size:5em;
     color: rgb(255, 255, 255);
     letter-spacing: 5px;
     cursor: pointer; 
@@ -130,23 +127,73 @@ nav ul li a:hover {
 
   .head p{
     margin-top: 1%;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   /* vision and mission */
-  .vision{
+  .vision-mission{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    /* margin: 0em 15em; */
+    align-items: center;
+    gap: 40px;
   }
 
+  .vision-section{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
   .vision-main{
-    width: 70%;
+    width: 50%;
+    padding: 1em;
+    box-sizing: border-box;
+    text-align: right;
+  }
+
+  .vision-image{
+    width: 50%;
+  }
+
+  .vision-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .vision-main h1{
-    font-size: 3em;
+    font-size: 2em;
+    color: rgb(184, 184, 7);
+  }
+  .mission-section{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .mission-main{
+    width: 50%;
+    padding: 1em;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  .mission-image{
+    width: 50%;
+  }
+
+  .mission-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .mission-main h1{
+    font-size: 2em;
+    color: rgb(184, 184, 7);
   }
 
   /* core */
