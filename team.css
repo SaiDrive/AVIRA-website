@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.founder-team{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.founder-head h1{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.founder-main .founder-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.founder-content .f-one{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    justify-content: center;
+}
+
+.f-one .f-one-left{
+    width: 50%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.f-one .f-one-left h2{
+    text-transform: uppercase;
+}
+.f-one .f-one-right{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-one-right .f-image{
+    width: 48%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: aquamarine;
+    outline: 1px solid rgb(255, 255, 255);
+    outline-offset: 4px;
+}
+
+.f-one-right .f-image img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 95%;
+    height: 95%;
+}
+
+
+
