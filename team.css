@@ -12,8 +12,404 @@ main{
     justify-content: center;
     align-items: center;
 }
+main h2{
+    font-size: 100px;
+}
+main h2:hover{
+    color: #ffffff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff;
+}
+.core-main h1{
+    text-align: center;
+}
 
-.founder-team{
+
+.box12-container{
+    width: 100%;
+}
+.box12-container img{
+    display: inline-block; /* or float: left; */
+  width: 33%; /* Adjust the width as needed */
+  box-sizing: border-box;
+  padding: 5px; 
+}
+.box{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+   
+}
+
+.box:hover .box-content{
+   transform: rotateY(270deg); 
+}
+
+.box-content{
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.box-front, .box-back{
+
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    color: #ddd;
+}
+
+.box-front{
+    
+    background: darkgray;
+}
+
+.box-front h1{
+    font-size: 50px;
+    text-align: center;
+}
+.box-front h3{
+    font-size: 50px;
+    text-align: center;
+}
+
+.box-back{
+    
+    background: rgb(59, 58, 58);
+    transform: rotateY(270deg);
+}
+.box-back p{
+  text-align: center;
+  padding-bottom: 100px;
+  
+
+}
+.box-back img{
+    transform: rotateY(180deg);
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.box2{
+    width: 300px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: -300px;
+
+}
+
+.box2:hover .box2-content{
+   transform: rotateY(270deg); 
+}
+
+.box2-content{
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.box2-front, .box2-back{
+
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    color: #ddd;
+}
+
+.box2-front{
+    
+    background: darkgray;
+}
+
+.box2-front h1{
+    font-size: 50px;
+    text-align: center;
+}
+.box2-front h3{
+    font-size: 50px;
+    text-align: center;
+}
+
+.box2-back{
+    
+    background: rgb(59, 58, 58);
+    transform: rotateY(270deg);
+}
+.box2-back p{
+  text-align: center;
+  padding-bottom: 100px;
+  
+
+}
+.box2-back img{
+    transform: rotateY(180deg);
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.box36-container{
+    width: 100%;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+.box36-container img{
+    display: inline-block; /* or float: left; */
+  width: 33%; /* Adjust the width as needed */
+  box-sizing: border-box;
+  padding: 10px; 
+}
+
+
+
+.box3{
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: 100px;
+   
+}
+
+.box3:hover .box3-content{
+   transform: rotateY(270deg); 
+}
+
+.box3-content{
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.box3-front, .box3-back{
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    color: #ddd;
+}
+
+.box3-front{
+    
+    background: darkgray;
+}
+
+.box3-front h1{
+    font-size: 20px;
+    text-align: center;
+}
+.box3-front h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.box3-back{
+    
+    background: rgb(59, 58, 58);
+    transform: rotateY(270deg);
+}
+.box3-back p{
+  text-align: center;
+  padding-bottom: 100px;
+  
+
+}
+.box3-back img{
+    transform: rotateY(180deg);
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.box4{
+    width: 200px;
+    height: 200px;
+    margin-left:250px;
+    margin-top: -200px;
+   
+}
+
+.box4:hover .box4-content{
+   transform: rotateY(270deg); 
+}
+
+.box4-content{
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.box4-front, .box4-back{
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    color: #ddd;
+}
+
+.box4-front{
+    
+    background: darkgray;
+}
+
+.box4-front h1{
+    font-size: 20px;
+    text-align: center;
+}
+.box4-front h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.box4-back{
+    
+    background: rgb(59, 58, 58);
+    transform: rotateY(270deg);
+}
+.box4-back p{
+  text-align: center;
+  padding-bottom: 100px;
+  
+
+}
+.box4-back img{
+    transform: rotateY(180deg);
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+
+.box5{
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+    margin-top: -200px;
+   
+}
+
+.box5:hover .box5-content{
+   transform: rotateY(270deg); 
+}
+
+.box5-content{
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.box5-front, .box5-back{
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    color: #ddd;
+}
+
+.box5-front{
+    
+    background: darkgray;
+}
+
+.box5-front h1{
+    font-size: 20px;
+    text-align: center;
+}
+.box5-front h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.box5-back{
+    
+    background: rgb(59, 58, 58);
+    transform: rotateY(270deg);
+}
+.box5-back p{
+  text-align: center;
+  padding-bottom: 100px;
+  
+
+}
+.box5-back img{
+    transform: rotateY(180deg);
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.box6{
+    width: 200px;
+    height: 200px;
+    margin-left: 1000px;
+    margin-top: -200px;
+   
+}
+
+.box6:hover .box6-content{
+   transform: rotateY(270deg); 
+}
+
+.box6-content{
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.box6-front, .box6-back{
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    color: #ddd;
+}
+
+.box6-front{
+    
+    background: darkgray;
+}
+
+.box6-front h1{
+    font-size: 20px;
+    text-align: center;
+}
+.box6-front h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.box6-back{
+    
+    background: rgb(59, 58, 58);
+    transform: rotateY(270deg);
+}
+.box6-back p{
+  text-align: center;
+  padding-bottom: 100px;
+  
+
+}
+.box6-back img{
+    transform: rotateY(180deg);
+    width: fit-content;
+    height: fit-content;
+}
+
+
+/* .founder-team{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -74,7 +470,81 @@ main{
     border-radius: 50%;
     width: 95%;
     height: 95%;
-}
+} */
 
+.navbar {
+    position: fixed;
+    display: flex;
+    top: 0;
+    opacity: 0.75;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    z-index: 10;
+  }
+  
+  .navbar .nav-link {
+    display: flex;
+    gap: 2 rem;
+  }
+  
+  .logo {
+    margin: 10px;
+    border-radius: 50px;
+    justify-content: left;
+  }
+  
+  .logo img {
+    width: 50px;
+    border-radius: 50px;
+    border: 4px solid rgb(243, 237, 237);
+  }
+  
+  .nav-item {
+    color: white;
+  }
+  
+  .navbar .toggle-button {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 25px;
+    display: none;
+  }
+  
+  /* responsive */
+  @media(max-width: 900px) {
+    .navbar .nav-link {
+      display: none;
+    }
+  
+    .navbar .toggle-button {
+      display: block;
+      padding: 25px;
+    }
+  }
+  
+  nav ul li {
+    justify-content: right;
+    display: inline-block;
+    margin: 4.5% 0%;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    margin: 0px 7px;
+    padding: 8px 10px;
+    border-radius: 18px;
+    color: rgb(188, 189, 189);
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: white;
+    transform: scale(1.1);
+    padding: 8px 10px;
+  }
 
 
