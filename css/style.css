@@ -1,0 +1,350 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* navbar start */
+
+.navbar {
+  /* position: fixed; */
+  display: flex;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+.navbar .nav-link {
+  display: flex;
+  gap: 2 rem;
+}
+
+.logo {
+  margin: 10px;
+  border-radius: 50px;
+  justify-content: left;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.nav-item {
+  color: white;
+}
+
+.navbar .toggle-button {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 25px;
+  display: none;
+}
+
+nav ul li {
+  justify-content: right;
+  display: inline-block;
+  margin: 4.5% 0%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin: 0px 7px;
+  padding: 8px 10px;
+  border-radius: 18px;
+  color: rgb(188, 189, 189);
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: white;
+  transform: scale(1.1);
+  padding: 8px 10px;
+}
+
+/* navbar end */
+
+
+/* main-section starts */
+.main-section {
+  height: 40vh;
+}
+
+/* heading avira start */
+/* .head {
+  width: 80%;
+}
+
+.head h2 {
+  font-size: 5em;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.head h2 span {
+  transition: 0.5s;
+}
+
+.head h2:hover span {
+  color: #ffffff;
+  text-shadow: 0 0 10px #fff,
+    0 0 20px #fff;
+}
+
+.head p {
+  margin-top: 1%;
+  font-size: 1.5em;
+} */
+
+/* vision and mission */
+.vision-mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.vision-section {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vision-main {
+  width: 50%;
+  padding: 1em;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.vision-image {
+  width: 50%;
+}
+
+.vision-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vision-main h1 {
+  font-size: 2em;
+  color: rgb(184, 184, 7);
+}
+
+.mission-section {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-main {
+  width: 50%;
+  padding: 1em;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.mission-image {
+  width: 50%;
+}
+
+.mission-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mission-main h1 {
+  font-size: 2em;
+  color: rgb(184, 184, 7);
+}
+
+/* core */
+.core {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+/* about-section */
+.about {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+}
+
+.about h1 {
+  font-size: 3em;
+  padding: 5%;
+}
+
+.about-section {
+  display: flex;
+  gap: 5%;
+}
+
+.about-section .about-image img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* main-section ends */
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+  padding: 50px;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+}
+
+.footer-content {
+  width: 50%;
+  margin-bottom: 2em;
+}
+
+.footer-content h1 {
+  font-size: 1rem;
+  margin-top: -1em;
+  margin-bottom: 1.5em;
+}
+
+.footer-content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.footer-content p {
+  padding: 0% 15%;
+  color: #ffffff;
+}
+
+.socials a {
+  width: 50px;
+  height: 40px;
+  color: #e7f2f4;
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 0px;
+  font-size: 20px;
+}
+
+.container {
+  height: 100vh;
+  background: #160d0b;
+}
+
+section.container {
+
+  .bg2, .mountains, .soldier {
+      width: 100%;
+      transform-origin: center;
+      height: 100%;
+      position: absolute;
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+
+  .wrapper {
+      width: 100vw;
+      overflow: hidden;
+      background: url('https://assets.codepen.io/2621168/bg_1.jpg');
+      background-size:110%;
+      background-repeat: no-repeat;
+      position: relative;
+      z-index: 0;
+      aspect-ratio: 16/9;
+      margin: 0 -3rem;
+      text-align: center;
+  }
+
+  .bg2 {
+      background-image: url('https://assets.codepen.io/2621168/bg2.png');
+      z-index: 7;
+      width: 100%;
+  }
+
+  .mountains {
+      background-image: url('https://assets.codepen.io/2621168/mountains_1.png');
+      z-index: 2;
+      width: 100%;
+  }
+
+  .soldier {
+      background-image: url('https://assets.codepen.io/2621168/soldier.png');
+      height: 110vh;
+      z-index: 8;
+      align-items: center;
+      width: 100%;
+      /* margin-top: 5rem; */
+  }
+
+}
+
+.wrapper  h1 {
+  position: absolute;
+  width: 100%;
+  z-index: 7;
+  color: rgb(255, 255, 255);
+  top: 50%;
+  font-size: 11rem;
+  transform: translateY(-20%);
+  transform: translateX(5%);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text-mask {
+  overflow: hidden;
+}
+
+.wrapper h1 span {
+  letter-spacing: 3.5rem;
+}
+.wrapper p {
+  font-size: 1.75rem;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  color: rgb(255, 255, 255);
+  top: 80%;
+  transform: translateY(-20%);
+  transform: translateX(5%);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media(max-width: 900px) {
+  .navbar .nav-link {
+    display: none;
+  }
+
+  .navbar .toggle-button {
+    display: block;
+    padding: 25px;
+  }
+  
+}

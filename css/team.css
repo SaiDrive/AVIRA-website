@@ -14,6 +14,8 @@ main{
 }
 main h2{
     font-size: 100px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 main h2:hover{
     color: #ffffff;
